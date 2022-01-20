@@ -10,6 +10,9 @@ body{
 .colorful-text{
     color: #FABE4C;
 }
+.banner{
+    min-height: calc(100vh - 80px);
+}
 .style-text{
     font-family: 'Bebas Neue', cursive;
 }
@@ -21,7 +24,17 @@ body{
     padding: 15px 25px;
     font-weight: 500;
     border: none;
+    text-decoration: none;
 }
 .custom-btn:hover{
     background-image: linear-gradient(180deg,  #90a53c ,#A4BC46);
+}
+.image-style{
+    border-radius: 20px;
+}
+.card-header{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: inherit;
+    border: none;
 }
