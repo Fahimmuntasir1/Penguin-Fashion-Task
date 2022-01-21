@@ -38,3 +38,6 @@ body{
     background-color: inherit;
     border: none;
 }
+.border-radius{
+    border-radius: 15px;
+}
